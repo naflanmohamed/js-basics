@@ -24,3 +24,8 @@ function isGreaterThanFive(num) {
 
 const greaterThanFive = arr.filter(isGreaterThanFive);
 console.log(greaterThanFive);
+
+//filter numbers less than 5
+
+const lessThanFive = arr.filter((num) => num < 5);
+console.log(lessThanFive);
